@@ -1,0 +1,73 @@
+body {
+	height: 100%;
+	background-color: white;
+}
+
+/*Images/title/explanation*/
+.container {
+  width: 1065px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: "Helvetica"; 
+  color: black;
+  font-size: 50px;
+ text-align: center;
+ margin-bottom: 50px;
+}
+
+.one {
+  border: 2px solid black;
+  height: 300px;
+  width: 500px;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.two {
+  border: 2px solid black;
+  height: 300px;
+  width: 500px;
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 50px;
+  text-align: center;
+}
+
+/*Button/Navigation*/
+.buttons {
+  width: 1065px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.tr {
+  border: 2px solid black;
+  height: 30px;
+  width: 80px;
+  display: inline-block;
+  text-align: left;
+}
+.gu {
+  border: 2px solid black;
+  height: 30px;
+  width: 80px;
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 400px;
+  text-align: center;
+}
+.ke {
+  border: 2px solid black;
+  height: 30px;
+  width: 80px;
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 400px;
+  text-align: right;
+}
