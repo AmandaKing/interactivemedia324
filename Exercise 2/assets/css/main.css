@@ -1,4 +1,201 @@
-div {
-	display: inline;
+/*Base */
+
+body {
+  background-color: white;
 }
 
+p {
+  font-family: Courier;
+  font-size: 50px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1024px) {
+ 
+  body { 
+    background: white; 
+  }
+
+ .one {
+    background-image: url("Exercise 2/assets/images/image0.jpg");
+  }
+
+ .B {
+    display: block;
+  }
+
+ .A, .C, .D, .E, .F, .G, .H, .I, .J {
+    display: block;
+  }
+
+}
+
+
+@media screen and (max-width: 964px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .one {
+    background-image: url('assets/images/image1.jpg');
+  }
+
+   .C {
+    display: block;
+  }
+  
+  .A, .B, .D, .E, .F, .G, .H, .I, .J  {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 904px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .one {
+    background-image: url('assets/images/image1.jpg');
+  }
+
+  .D {
+    display: block;
+  }
+  
+	.A, .B, .D, .E, .F, .G, .H, .I, .J {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 844px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .one {
+    background-image: url('assets/images/image1.jpg');
+  }
+
+  .E {
+    display: block;
+  }
+  
+  .A, .B, .C, .D, .F, .G, .H, .I, .J  {
+    display: none;
+  }
+
+}
+
+
+
+@media screen and (max-width: 784px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .one {
+    background-image: url('assets/images/image1.jpg');
+  }
+
+  .F {
+    display: block;
+  }
+  
+  .A, .B, .C, .D, .E, .G, .H, .I, .J  {
+    display: none;
+  }
+
+}
+
+
+
+@media screen and (max-width: 724px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .one {
+    background-image: url('assets/images/image1.jpg');
+  }
+
+  .G {
+    display: block;
+  }
+  
+  .A, .B, .C, .D, .E, .F, .H, .I, .J {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 664px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .one {
+    background-image: url('assets/images/image1.jpg');
+  }
+
+  .H {
+    display: block;
+  }
+  
+  .A, .B, .C, .D, .E, .F, .G, .I, .J {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 634px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .one {
+    background-image: url('assets/images/image1.jpg');
+  }
+
+  .I {
+    display: block;
+  }
+  
+  .A, .B, .C, .D, .E, .F, .G, .H, .J {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 604px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .one {
+    background-image:url('assets/images/image1.jpg');
+  }
+
+  .J {
+    display: block;
+    color: white;
+  }
+  
+  .A, .B, .C, .D, .E, .F, .G, .H, .I {
+    display: none;
+  }
+
+}
