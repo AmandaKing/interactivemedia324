@@ -1,4 +1,45 @@
-div {
-	display: inline;
+/*base*/
+body {
+	background-color:white;
 }
 
+.one {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.a, .b, .c, .d, .e, .f, .g, .h, .i  {
+	display: inline-block;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	height: 100px;
+	width: 100px;
+	background-color: red;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 1170px) {
+
+  body { background-color: #D3D3D3; }
+
+}
+@media screen and (max-width: 1045px) {
+
+  body { background-color: #C0C0C0; }
+
+}
+@media screen and (max-width: 920px) {
+
+  body { background-color: #A9A9A9; }
+
+}
+@media screen and (max-width: 795px) {
+
+  body { background-color: #808080; }
+
+}
+@media screen and (max-width: 670px) {
+
+  body { background-color: #696969; }
+
+}
