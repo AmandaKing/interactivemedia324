@@ -27,6 +27,8 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .two {
@@ -37,6 +39,8 @@ h1 {
   margin-right: 0;
   margin-left: 50px;
   text-align: center;
+  border-radius: 5px;
+  text-align: center;
 }
 
 /*Button/Navigation*/
@@ -46,13 +50,18 @@ h1 {
   margin-right: auto;
   margin-top: 30px;
 }
+
 .tr {
   border: 2px solid black;
   height: 30px;
   width: 80px;
   display: inline-block;
   text-align: left;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Helvetica";
 }
+
 .utr {
   border: 2px solid black;
   height: 30px;
@@ -60,7 +69,11 @@ h1 {
   position: absolute;
   text-align: left;
   margin-top: 10px;
+   border-radius: 5px;
+  text-align: center;
+  font-family: "Helvetica";
 }
+
 .gu {
   border: 2px solid black;
   height: 30px;
@@ -68,8 +81,11 @@ h1 {
   display: inline-block;
   margin-right: 0;
   margin-left: 400px;
+  border-radius: 5px;
   text-align: center;
+  font-family: "Helvetica";
 }
+
 .ke {
   border: 2px solid black;
   height: 30px;
@@ -78,5 +94,293 @@ h1 {
   margin-right: 0;
   margin-left: 400px;
   text-align: right;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Helvetica";
+
 }
 
+/*media queries*/
+@media screen and (max-width: 1024px) {
+
+  body { background-color: white; }
+  .container {
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  p { 
+    font-size: 1em;
+    margin-left: 5px;
+    width: 90%;
+  }
+  .one {
+    display: inline-block;
+    width: 440px;
+  }
+
+  .two {
+    display: inline-block;
+    width: 440px;
+    margin-left: 15px;
+  }
+
+  .buttons {
+  width: 90%;
+  position: absolute;
+  margin-top: 75px;
+  }
+
+  .tr {
+  position: absolute;
+  margin-left: 0px;
+  }
+  .gu {
+  position: absolute;
+  margin-left: 420px;
+  }
+  .ke {
+  position: absolute;
+  margin-left: 830px;
+  }
+}
+@media screen and (max-width: 950px) {
+  body { background-color: white; }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p { 
+    width: 90%;
+    margin-top: -5%;
+  }
+  .one {
+  height:150px;
+  width: 95%;
+  position: absolute;
+  }
+
+  .two {
+  height: 150px;
+  width: 95%;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 0px;
+  }
+
+  .buttons {
+  width: 90%;
+  position: absolute;
+  margin-top: 320px;
+  }
+
+  .tr {
+  position: absolute;
+  margin-left: 0px;
+  }
+  .gu {
+  position: absolute;
+  margin-left: 50%;
+  }
+  .ke {
+  position: absolute;
+  margin-left: 95%;
+  }
+}
+@media screen and (max-width: 768px) {
+
+body { background-color: white; }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p { 
+    width: 90%;
+    margin-top: -5%;
+  }
+  .one {
+  height:150px;
+  width: 95%;
+  position: absolute;
+  }
+
+  .two {
+  height: 150px;
+  width: 95%;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 0px;
+  }
+
+  .buttons {
+  width: 90%;
+  position: absolute;
+  margin-top: 320px;
+  }
+
+  .tr {
+  position: absolute;
+  margin-left: 0px;
+  }
+  .gu {
+  position: absolute;
+  margin-left: 50%;
+  }
+  .ke {
+  position: absolute;
+  margin-left: 95%;
+  }
+}
+@media screen and (max-width: 600px) {
+
+  body { background-color: white; }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: -5%;
+  }
+  p { 
+    width: 90%;
+    margin-top: -5%;
+  }
+  .one {
+  height:150px;
+  width: 95%;
+  position: absolute;
+  }
+
+  .two {
+  height: 150px;
+  width: 95%;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 0px;
+  }
+
+  .buttons {
+  width: 90%;
+  position: absolute;
+  margin-top: 320px;
+  }
+
+  .tr {
+  position: absolute;
+  margin-left: 0px;
+  }
+  .gu {
+  position: absolute;
+  margin-left: 45%;
+  }
+  .ke {
+  position: absolute;
+  margin-left: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+
+  body { background-color: white; }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 30px;
+    margin-top: -5%;
+  }
+  p { 
+    font-size: .95em;
+    margin-top: -10%;
+  }
+  .one {
+  height:200px;
+  width: 90%;
+  position: absolute;
+  }
+
+  .two {
+  height: 200px;
+  width: 90%;
+  position: absolute;
+  margin-top: 215px;
+  margin-left: 0px;
+  }
+
+  .buttons {
+  width: 90%;
+  position: absolute;
+  margin-top: 430px;
+  }
+
+  .tr {
+  position: absolute;
+  margin-left: 10px;
+  }
+  .gu {
+  position: absolute;
+  margin-left: 40%;
+  }
+  .ke {
+  position: absolute;
+  margin-left: 80%;
+  }
+}
+@media screen and (max-width: 320px) {
+
+  body { background-color: white; }
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+  h1 {
+    font-size: 25px;
+    margin-top: -5%;
+  }
+  p { 
+    font-size: .95em;
+    margin-top: -15%;
+  }
+  .one {
+  height:150px;
+  width: 90%;
+  position: absolute;
+  }
+
+  .two {
+  height: 150px;
+  width: 90%;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 0px;
+  }
+
+  .buttons {
+  width: 90%;
+  position: absolute;
+  margin-top: 320px;
+  }
+
+  .tr {
+  position: absolute;
+  margin-left: 0px;
+  }
+  .gu {
+  position: absolute;
+  margin-left: 98px;
+  }
+  .ke {
+  position: absolute;
+  margin-left: 193px;
+  }
+}
