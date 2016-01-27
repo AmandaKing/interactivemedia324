@@ -36,8 +36,7 @@ h1 {
 }
 .cord1 {
   max-width:100%;
-  max-height:100%;
-  transform: rotate(90deg);
+  max-height:100%
 }
 .two {
   height: 300px;
@@ -345,6 +344,5 @@ p {
 .cord1 {
   max-width:100%;
   max-height:100%;
-  transform: rotate(90deg);
 }
 }
