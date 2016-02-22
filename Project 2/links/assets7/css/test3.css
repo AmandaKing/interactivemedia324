@@ -1,0 +1,34 @@
+body { 
+	background-color: black;
+	overflow: hidden;
+}
+
+.type {
+	font-family: 'Questrial', sans-serif;
+	font-size: 250px;
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 30%;
+	z-index: 2;
+	text-align: center;
+	position: absolute;
+	display: block;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
+
+}
+
+.envious {
+	z-index: 1;
+	background-color: green;
+	width: 110%;
+	height: 110%;
+	position: absolute;
+	margin-top: -20px;
+	margin-bottom: -20px;
+	margin-left: -20px;
+}
