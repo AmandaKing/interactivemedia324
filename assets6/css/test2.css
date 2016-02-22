@@ -1,0 +1,29 @@
+body { 
+	background-color: yellow;
+	overflow:hidden;
+}
+
+.type {
+	font-family: 'Questrial', sans-serif;
+	font-size: 250px;
+	display: none;
+	position: absolute;
+	margin-top: 400px;
+	margin-left: 20%;
+	z-index: -1;
+	display: block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.awake {
+	background-color: #191970;
+	width: 3000px;
+	height: 2000px;
+	margin: -20px;
+	z-index: 1;
+}
