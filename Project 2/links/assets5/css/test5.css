@@ -1,13 +1,14 @@
 body { 
   background-color: orange;
+  overflow: hidden;
 }
 
 .type {
   font-family: 'Questrial', sans-serif;
   font-size: 250px;
   position: absolute;
-  margin-top: 400px;
-  margin-left: 30%;
+  margin-top: 250px;
+  margin-left: 27%;
   z-index: 2;
   text-align: center;
 
