@@ -1,0 +1,25 @@
+.cont {
+  background-color: violet;
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto; 
+}
+.btn {
+  height:30px;
+  width:225px;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 28px;
+  background: #a7afb5;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+}
+
+.btn:hover {
+  background: #820bc2;
+  text-decoration: none;
+}
