@@ -16,6 +16,3 @@ function randomlinks(){
     window.location=links[myrandom]
 }
 </script>
-<form>
-<input type="button" value="random link!" onClick="randomlinks()">
-</form>

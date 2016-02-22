@@ -3,28 +3,33 @@
 <head>
 	<title>How Am I feeling?</title>
 <link rel="stylesheet" type="text/css" href="assets0/css/test0.css">
-
+<script type="text/javascript">
+function randomlinks(){
+    var myrandom=Math.round(Math.random()*4)
+    var links=new Array()
+    links[0]="http://amandaking.github.io/interactivemedia324/Project 2/links/test"
+    links[1]="http://amandaking.github.io/interactivemedia324/Project 2/links/test2"
+    links[2]="http://amandaking.github.io/interactivemedia324/Project 2/links/test3"
+    links[3]="http://amandaking.github.io/interactivemedia324/Project 2/links/test4"
+    links[4]="http://amandaking.github.io/interactivemedia324/Project 2/links/test5"
+ 
+    window.location=links[myrandom]
+}
+</script>
 </head>
 <body>
-	<div class="cont">
+	<!--<div class="cont">
 		<div class="btn">How am I feeling?</div>
-	</div>
+	</div>-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
  
    <script type="text/javascript" src="assets0/js/test.js"></script>
+   <div class="cont">
+	<form>
+	<input type="button" value="How am I feeling?" onClick="randomlinks()" class="btn"></input>
+	</form>
+	<!--webbit bot="HTMLMarkip" endspan i-checksum="10877"-->
+	</div>
 </body>
 </html>
